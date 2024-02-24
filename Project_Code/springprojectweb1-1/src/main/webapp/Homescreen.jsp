@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +86,7 @@
     <h1>Welcome to Home Rental Management System</h1>
     <p>Find your perfect home for rent with ease.</p>
     <a href="loginscreen.html" id="link1" >Login</a>
-    <p>Don't have an account? <a href="UserRegistrationForm.html" id="link2" >Register</a></p>
+    <p>Don't have an account? <a href="/Userregistration" id="link2" >Register</a></p>
 </div>
 
 

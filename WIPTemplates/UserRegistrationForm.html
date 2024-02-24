@@ -70,16 +70,7 @@
 <body>
   
 <div class="form-container">
-    <div class="topnav">
-        <!-- Home link -->
-       
-        <!-- About link -->
-      
-        <!-- Contact Us link -->
-        <a href="contact.html">Contact Us</a>
-        <a href="about.html">About</a>
-        <a href="HOMEScreen.html">Home</a>
-    </div>
+
     <h2>User Registration Form</h2>
     <form action="your_registration_script.php" method="post">
         <label for="firstName">First Name:</label>
@@ -98,6 +89,15 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
         <p></p>
+        <label for="UserType">Type of User:</label>
+        <select id="UserType" name="UserType" required>
+            <option value="Owner">Owner</option>
+            <option value="Tenant">Tenant</option>
+    
+            <!-- Add more options as needed -->
+        </select>
+        <p></p>
+        
         <button type="submit">Register</button>
 
 
