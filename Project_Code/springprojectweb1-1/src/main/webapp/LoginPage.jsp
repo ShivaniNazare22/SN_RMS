@@ -57,9 +57,9 @@
 
 <div class="login-container">
     <h2>Login</h2>
-    <form action="your_login_script.php" method="post">
-        <label for="userId">User ID:</label>
-        <input type="text" id="userId" name="userId" required>
+    <form action="logintoportal" method="post">
+        <label for="username">User ID:</label>
+        <input type="text" id="username" name="username" required>
 <p></p>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>

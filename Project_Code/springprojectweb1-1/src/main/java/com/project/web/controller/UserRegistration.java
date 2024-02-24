@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.project.web.models.Userslist;
+import com.project.web.models.ListofUsers;
 import com.project.web.repositories.userlist_info;
 
 import jakarta.servlet.http.HttpSession;
@@ -28,7 +28,7 @@ public class UserRegistration {
 	}
 	
 	@RequestMapping("/adduser")
-	public String adduser(@ModelAttribute Userslist users) {
+	public String adduser(@ModelAttribute ListofUsers users) {
 
 		
 		ulrepo.save(users);
@@ -39,10 +39,12 @@ public class UserRegistration {
 	@RequestMapping("/Thankyouforreg")
 	public String getdata(Model m) {
 		
-		List<Userslist> al=ulrepo.findAll();
+		List<ListofUsers> al=ulrepo.findAll();
 		m.addAttribute("e_data", al);
 		
 		return "Thankyouforreg";
 	}
+	
+
 	
 }

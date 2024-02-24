@@ -85,7 +85,7 @@
    
     <h1>Thank You for Registration</h1>
     <p>Please login using below button</p>
-    <a href="LoginPage.html" id="link1" >Login</a>
+    <a href="/LoginPage" id="link1" >Login</a>
     
 </div>
 

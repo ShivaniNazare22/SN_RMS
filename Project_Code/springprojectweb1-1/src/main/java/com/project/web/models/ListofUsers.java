@@ -1,19 +1,22 @@
 package com.project.web.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Userslist {
+public class ListofUsers {
 
 	@Id
+	@Column(unique = true)
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	private int id;
 	private String firstname;
 	private String lastname;
 	private String phonenumber;
+	@Column(unique = true)
 	private String username;
 	private String password;
 	private String usertype;
@@ -59,7 +62,7 @@ public class Userslist {
 	public void setusertype(String usertype) {
 		this.usertype = usertype;
 	}
-	public Userslist(int id,String firstname,String lastname,String phonenumber,String username,String password,String user_type, String usertype) {
+	public ListofUsers(int id,String firstname,String lastname,String phonenumber,String username,String password,String user_type, String usertype) {
 		super();
 		this.id = id;
 		this.firstname = firstname;
@@ -70,7 +73,7 @@ public class Userslist {
 		this.phonenumber=phonenumber;
 	}
 	
-public Userslist() {
+public ListofUsers() {
 		
 	}
 	@Override

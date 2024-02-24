@@ -2,13 +2,14 @@ package com.project.web.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.project.web.models.Userslist;
+
+import com.project.web.models.ListofUsers;
 
 
 
-public interface userlist_info extends JpaRepository<Userslist, Integer> {
+public interface userlist_info extends JpaRepository<ListofUsers, Integer> {
 
-	public Userslist findByusername(String username);
+	public ListofUsers findByusername(String username);
 
 		
 	}
