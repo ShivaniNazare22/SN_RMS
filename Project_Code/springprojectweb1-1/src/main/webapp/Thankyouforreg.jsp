@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Home Rental Management System</title>
+    <title>Home Rental Management System--Thank you</title>
 
     <style>
         body {
@@ -83,10 +83,10 @@
 
 <div class="home-container">
    
-    <h1>Welcome to Home Rental Management System</h1>
-    <p>Find your perfect home for rent with ease.</p>
-    <a href="/LoginPage" id="link1" >Login</a>
-    <p>Don't have an account? <a href="/UserRegistration" id="link2" >Register</a></p>
+    <h1>Thank You for Registration</h1>
+    <p>Please login using below button</p>
+    <a href="LoginPage.html" id="link1" >Login</a>
+    
 </div>
 
 

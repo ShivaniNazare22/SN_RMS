@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Registration Form</title>
+    <title>Login Form with Background Image</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@
             background-position: left;
             background-repeat: no-repeat;
         }
-        .form-container {
+        .login-container {
             background-color: rgba(255, 255, 255, 0.2);
             padding: 20px;
             border-radius: 8px;
@@ -51,55 +51,22 @@
         .login-form button:hover {
             background-color: #e41717;
         }
-
-        .topnav {
-          
-          overflow: hidden; /* Clear floats */
-          position: relative; /* Positioning context */
-      }
-
-      /* Style for the links */
-      .topnav a {
-          float: right; /* Float the links to the right */
-          display: block; /* Display as block-level element */
-          color: #060404; /* Text color */
-          text-align: right; /* Center the text */
-          padding: 14px 16px; /* Padding for better spacing */
-          text-decoration: none; /* Remove underline */
-      }
     </style>
 </head>
 <body>
-  
-<div class="form-container">
 
-    <h2>User Registration Form</h2>
-    <form action="adduser" method="post">
-        <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" name="firstname" required>
-        <p></p>
-        <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" name="lastname" required>
-        <p></p>
-        <label for="phonenumber">Phone Number:</label>
-        <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{10}" required>
-        <p></p>
-        <label for="username">User Name:</label>
-        <input type="text" id="username" name="username" required>
-
-        <p></p>
+<div class="login-container">
+    <h2>Login</h2>
+    <form action="your_login_script.php" method="post">
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId" required>
+<p></p>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
         <p></p>
-    <label for="usertype">User Type:(Mention "Owner" OR "Tenant")</label>
-        <input type="text" id="usertype" name="usertype" required>
-        <p></p>
-        
-        <button type="submit">Register</button>
-
-
-        
+        <button type="submit">Login</button>
     </form>
+
 </div>
 
 </body>
