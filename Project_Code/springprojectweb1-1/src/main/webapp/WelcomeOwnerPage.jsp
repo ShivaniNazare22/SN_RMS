@@ -1,0 +1,75 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Details Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVudGFsJTIwcHJvcGVydHl8ZW58MHx8MHx8fDA%3D'); /* Add the path to your background image */
+            background-size: cover;
+            background-position: left;
+            background-repeat: no-repeat;
+        }
+        .form-container {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .login-form label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        .login-form button {
+            width: 200%;
+            padding: 15px;
+            background-color: #12060ddd;
+            color: #ca0909;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #e41717;
+        }
+        a {
+    color: rgb(14, 14, 220); /* Change the text color */
+    text-decoration: none; /* Remove underline */
+   align-content: center;
+}
+    </style>
+</head>
+<body>
+    <div class="home-container">
+   
+        <h1>Welcome to Home Rental Management System</h1>
+        <a href="/PropertyRegistrationPage" id="link1" >Post your property !</a>
+       
+    </div>
+
+    
+   
+   
+
+
+</body>
+</html>

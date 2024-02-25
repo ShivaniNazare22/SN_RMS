@@ -16,7 +16,6 @@ public class ListofUsers {
 	private String firstname;
 	private String lastname;
 	private String phonenumber;
-	@Column(unique = true)
 	private String username;
 	private String password;
 	private String usertype;

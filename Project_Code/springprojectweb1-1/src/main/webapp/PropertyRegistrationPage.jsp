@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +57,7 @@
 
 <div class="form-container">
     <h2>Property Details Form</h2>
-    <form action="your_processing_script.php" method="post">
+    <form action="addproperty" method="post">
         <label for="propertyType">Property Type:</label>
         <select id="propertyType" name="propertyType" required>
             <option value="apartment">Apartment</option>

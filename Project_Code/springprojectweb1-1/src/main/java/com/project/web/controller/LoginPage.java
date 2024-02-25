@@ -33,7 +33,7 @@ public class LoginPage {
 		{
 			if(st.getusertype().equals("Owner")){
 			login.setAttribute("login", st);
-			return "Homescreen";
+			return "WelcomeOwnerPage";
 			}
 			else {
 			return "Thankyouforreg";

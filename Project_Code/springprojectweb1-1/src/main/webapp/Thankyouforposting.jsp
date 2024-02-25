@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,9 +83,9 @@
 
 <div class="home-container">
    
-    <h1>Thank You for posting you property</h1>
-    <p>Tenants will contact you soon</p>
-    <a href="loginscreen.html" id="link1" >Logout</a>
+    <h1>Thank You for posting your property !</h1>
+    <p>Tenants will contact you soon...</p>
+    <a href="/Homescreen" id="link1" >Logout</a>
     
 </div>
 
